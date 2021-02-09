@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j8r-Mg-Mbe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="zyM-QZ-t8p">
+            <objects>
+                <viewController id="2M5-zJ-SBt" customClass="ProfileViewController" customModule="Super_Junior" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JyJ-FD-Klh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mT6-dS-aZe">
+                                <rect key="frame" x="44" y="494" width="326" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Asia's No.1 multi-entertainment group active across multiple genres—singers, celebrities, models, etc.
+The group celebrated its 10th anniversary in 2015, and has become extremely popular not only for its activities as a group, but also individual activities, including unit activities.
+The solo concert SUPER SHOW has given in excess of 140 performances in 30 major cities around the world, with cumulative audiences of about 2 million people.
+After a hiatus of three years or so since 2017, the world touring SUPER SHOW 7 has been acclaimed not only in Asia but also in Latin America, demonstrating its worldwide popularity.
+Their world tour, SUPER SHOW 8 began from October 2019. Also a mini album will be newly released on January 29 of next year.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="superjunior profile" translatesAutoresizingMaskIntoConstraints="NO" id="Ity-e6-zNz">
+                                <rect key="frame" x="44" y="184" width="326" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Zx-eZ-1ow"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xBI-2A-KfH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFc-KC-eQH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1719" y="-826"/>
+        </scene>
+        <!--Top View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TopViewController" customModule="Super_Junior" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20201106" translatesAutoresizingMaskIntoConstraints="NO" id="jjY-jB-EId">
+                                <rect key="frame" x="0.0" y="56" width="414" height="757"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aOX-Fs-xzg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1671.0144927536232" y="-1540.1785714285713"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0ct-S6-ZsW">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="j8r-Mg-Mbe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XQ0-x1-VVJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XzF-zd-6ku" kind="relationship" relationship="viewControllers" id="DG0-yx-aUs"/>
+                        <segue destination="lVj-7f-naB" kind="relationship" relationship="viewControllers" id="NlT-sm-nFf"/>
+                        <segue destination="kF2-lp-vVF" kind="relationship" relationship="viewControllers" id="GDF-gc-8hU"/>
+                        <segue destination="GY4-gL-A3s" kind="relationship" relationship="viewControllers" id="Mey-hM-yBD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2VB-dR-vwo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-616" y="-458"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="Il0-HV-4On">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XzF-zd-6ku" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News" image="newspaper" catalog="system" id="ke2-yb-1u6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Shg-Mi-Y9I">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yhc-U8-CXr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6aS-qd-eP6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="-1540"/>
+        </scene>
+        <!--Member-->
+        <scene sceneID="4iU-r2-hOX">
+            <objects>
+                <viewController id="8aL-b9-tqY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Axf-Kp-I83">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f5x-L9-OO0">
+                                <rect key="frame" x="57" y="147" width="300" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="VI0-Ym-42F">
+                                        <rect key="frame" x="0.0" y="50" width="2700" height="400"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-NT-c7A">
+                                                <rect key="frame" x="300" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="2"/>
+                                                <connections>
+                                                    <segue destination="eu7-av-J8I" kind="show" id="PmD-As-P0U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dv-7J-L4S">
+                                                <rect key="frame" x="600" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="3"/>
+                                                <connections>
+                                                    <segue destination="4e7-PM-caq" kind="show" id="ZL8-gI-zWF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc3-3m-KyR">
+                                                <rect key="frame" x="900" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="4"/>
+                                                <connections>
+                                                    <segue destination="kp3-aL-7S5" kind="show" id="yJG-su-iJC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36j-Fj-rWH">
+                                                <rect key="frame" x="1200" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="5"/>
+                                                <connections>
+                                                    <segue destination="Zk2-H7-9sc" kind="show" id="tRe-Jt-frf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4x-iA-dGK">
+                                                <rect key="frame" x="1500" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="6"/>
+                                                <connections>
+                                                    <segue destination="aWi-Se-Brs" kind="show" id="ty4-8i-ke6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NM0-g2-NN7">
+                                                <rect key="frame" x="1800" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="7"/>
+                                                <connections>
+                                                    <segue destination="cEn-sF-k5H" kind="show" id="VFt-OT-uRh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc7-em-y1P">
+                                                <rect key="frame" x="2100" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="8"/>
+                                                <connections>
+                                                    <segue destination="plL-bh-hwy" kind="show" id="GYu-bq-d9j"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RB7-t3-0hl">
+                                                <rect key="frame" x="2400" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="9"/>
+                                                <connections>
+                                                    <segue destination="mDR-v3-Qpz" kind="show" id="CKZ-2e-7mk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA5-iF-VlC">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="1"/>
+                                                <connections>
+                                                    <segue destination="gVJ-xq-1g1" kind="show" id="A6w-Lp-KEW"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="VEx-hg-d7A"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="8PM-Kz-K6d"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="a97-by-NSC"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="2700" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xHr-hm-98L"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Member" id="vI9-BA-0BJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cts-Pg-sOy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1719" y="-106"/>
+        </scene>
+        <!--成員-->
+        <scene sceneID="bJu-zY-swC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kF2-lp-vVF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="成員" image="person.fill" catalog="system" id="wNh-yK-1ei"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0w1-Js-vo1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8aL-b9-tqY" kind="relationship" relationship="rootViewController" id="Q9I-Jl-5gB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5Y-aG-ZXx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="801" y="-157"/>
+        </scene>
+        <!--Album View Controller-->
+        <scene sceneID="RTb-0G-hEw">
+            <objects>
+                <viewController id="e7F-bg-Y6w" customClass="AlbumViewController" customModule="Super_Junior" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sFp-R4-X5E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2r-iH-FfE">
+                                <rect key="frame" x="39" y="169" width="326" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="wB4-r9-ldc">
+                                <rect key="frame" x="39" y="514" width="265" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="oNp-ZW-kVD">
+                                <rect key="frame" x="68" y="608" width="269" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SliderValueChanged:" destination="e7F-bg-Y6w" eventType="valueChanged" id="0KN-wJ-w8u"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2006" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POb-TE-Gkt">
+                                <rect key="frame" x="20" y="612" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT2-Sd-NSi">
+                                <rect key="frame" x="348" y="612" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bH-bA-3xq">
+                                <rect key="frame" x="318" y="523" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SwitchValueChanged:" destination="e7F-bg-Y6w" eventType="valueChanged" id="wjb-oT-XaI"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ehS-5B-ECO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xud-Ud-Sdd"/>
+                    <connections>
+                        <outlet property="AlbumDatePickker" destination="wB4-r9-ldc" id="geM-AO-4k9"/>
+                        <outlet property="AlbumPhoto" destination="J2r-iH-FfE" id="zhM-jC-lSy"/>
+                        <outlet property="AlbumSlider" destination="oNp-ZW-kVD" id="fYQ-RM-36X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tfl-Ah-4mB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1147.8260869565217" y="604.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o1V-7p-SNE">
+            <objects>
+                <viewController id="gVJ-xq-1g1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YT6-IO-qxH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Heechul" translatesAutoresizingMaskIntoConstraints="NO" id="067-Dr-azJ">
+                                <rect key="frame" x="60" y="146" width="294" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pD9-2d-TLn">
+                                <rect key="frame" x="20" y="512" width="374" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">希澈（희철）Hee Chul
+本名：金希澈（김희철)
+出生日期：1983.07.10
+隊中職務：副唱、副Rapper
+IG：https://www.instagram.com/kimheenim/        </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qAt-Fa-ILt"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LZw-zr-QNG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJY-92-5yW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3003" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yyq-sf-Ybe">
+            <objects>
+                <viewController id="eu7-av-J8I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SiR-OW-PJo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eunhynk" translatesAutoresizingMaskIntoConstraints="NO" id="Gkc-D0-kbj">
+                                <rect key="frame" x="52" y="140" width="302" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VGO-74-XvI">
+                                <rect key="frame" x="20" y="492" width="374" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">銀赫（은혁）Eun Hyuk
+本名：李赫宰（이혁재)                                             出生日期：1986.04.04 
+IG：https://www.instagram.com/eunhyukee44/?hl=zh-tw     </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fu4-Ec-fD2"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eGO-bC-KBY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1aR-Sb-XM7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3725" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0XP-bz-J9Z">
+            <objects>
+                <viewController id="4e7-PM-caq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BmI-Ef-d1R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shindong" translatesAutoresizingMaskIntoConstraints="NO" id="Yob-v7-ThN">
+                                <rect key="frame" x="51" y="149" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UW5-3a-gqb">
+                                <rect key="frame" x="20" y="495" width="374" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">神童（신동）Shin Dong
+本名：申東熙（신동희）                                                 出生日期：1985.09.28       
+IG：https://www.instagram.com/earlyboysd/?hl=zh-tw </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vQQ-bS-Ca9"/>
+                        <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NN6-gx-Gdb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vSo-mL-qta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4423" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zUm-hs-ZUA">
+            <objects>
+                <viewController id="kp3-aL-7S5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1J0-UY-pdL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yesung" translatesAutoresizingMaskIntoConstraints="NO" id="OHK-Q7-gTT">
+                                <rect key="frame" x="51" y="141" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aF7-ZG-gZK">
+                                <rect key="frame" x="20" y="487" width="374" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">藝聲（예성）Ye Sung
+本名：金鐘雲（김종운)                                   出生日期：1984.08.24 
+IG：https://www.instagram.com/yesung1106/?hl=zh-tw</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iIj-da-Y21"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uZ4-0T-SiY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dvu-lB-60F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5052" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ncL-XI-g5E">
+            <objects>
+                <viewController id="Zk2-H7-9sc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="INE-WE-Hbd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kyuhyun" translatesAutoresizingMaskIntoConstraints="NO" id="T1N-Vu-nID">
+                                <rect key="frame" x="51" y="141" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="y5c-00-l7A">
+                                <rect key="frame" x="25" y="477" width="374" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">圭賢（규현）Kyu Hyun
+本名：曹圭賢（조규현）
+出生日期：1988.02.03 
+IG：https://www.instagram.com/gyuram88/</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NR8-uT-LLb"/>
+                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vsd-9L-uqN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJi-iv-9mf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5723" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ngb-YC-mlY">
+            <objects>
+                <viewController id="aWi-Se-Brs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X5a-l8-YhU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Donghae" translatesAutoresizingMaskIntoConstraints="NO" id="XSk-nb-NKa">
+                                <rect key="frame" x="51" y="144" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rjT-OF-gNC">
+                                <rect key="frame" x="20" y="490" width="374" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">東海（동해）Dong Hae
+本名：李東海（이동해）                               出生日期：1986.10.15 
+隊中職務：副唱、副Rapper、主領舞
+IG：https://www.instagram.com/leedonghae/?hl=zh-tw</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mlB-bI-VzC"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kUY-z0-820"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gfp-0k-HF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6422" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tox-tQ-X3U">
+            <objects>
+                <viewController id="cEn-sF-k5H" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DJV-rU-sp9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Siwon" translatesAutoresizingMaskIntoConstraints="NO" id="TPY-3e-8hC">
+                                <rect key="frame" x="51" y="144" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xgN-zg-bgk">
+                                <rect key="frame" x="20" y="490" width="374" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">始源 （시원）Siwon
+本名：崔始源（최시원）                                              出生日期:1986.4.7                                         隊中職務：副唱、副Rapper、主領舞
+IG：https://www.instagram.com/siwonchoi/</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eaj-vq-LAJ"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="81Z-dy-D5A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndZ-vJ-f9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7119" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SYJ-3J-KJ4">
+            <objects>
+                <viewController id="plL-bh-hwy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pfa-Lv-A3W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Roeedwook" translatesAutoresizingMaskIntoConstraints="NO" id="SvA-P9-wml">
+                                <rect key="frame" x="51" y="144" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TnE-2F-pnL">
+                                <rect key="frame" x="20" y="490" width="374" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">厲旭（려욱）Ryeo Wook
+本名：金厲旭（김려욱）                                出生日期：1987.06.21                                 隊中職務：主唱
+IG：沒有</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TeU-Au-QKO"/>
+                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CF2-nK-go3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SE6-7F-MKf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7801" y="-512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qnw-9V-Gur">
+            <objects>
+                <viewController id="mDR-v3-Qpz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2lm-i3-yRc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leeteuk" translatesAutoresizingMaskIntoConstraints="NO" id="9eV-Ry-7gO">
+                                <rect key="frame" x="51" y="144" width="313" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dCB-L9-Y6t">
+                                <rect key="frame" x="20" y="490" width="374" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">利特（이특）Lee Teuk
+本名：朴正洙（박정수）                                          出生日期：1983.07.01                     
+隊中職務：隊長、副唱、副Rapper
+IG：https://www.instagram.com/xxteukxx/?hl=zh-tw</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qic-Ue-m1f"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aQv-zY-i0d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDY-Ic-9GT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8458" y="-512"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="irT-kw-qA3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lVj-7f-naB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="9.alt.circle" catalog="system" id="7Mx-La-Rl5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iDt-f7-lrc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2M5-zJ-SBt" kind="relationship" relationship="rootViewController" id="i1F-Lc-Sx7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="htN-oh-7a5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="-826"/>
+        </scene>
+        <!--Album-->
+        <scene sceneID="AlH-Dk-gsf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GY4-gL-A3s" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Album" image="opticaldiscdrive" catalog="system" id="1PA-hu-rrm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="puS-A6-a6m">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="e7F-bg-Y6w" kind="relationship" relationship="rootViewController" id="VGE-5Y-ZEI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pcd-01-aqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="606"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="516" height="806"/>
+        <image name="2" width="510" height="800"/>
+        <image name="20201106" width="354" height="352"/>
+        <image name="3" width="506" height="806"/>
+        <image name="4" width="508" height="802"/>
+        <image name="5" width="520" height="806"/>
+        <image name="6" width="512" height="804"/>
+        <image name="7" width="510" height="808"/>
+        <image name="8" width="524" height="810"/>
+        <image name="9" width="516" height="794"/>
+        <image name="9.alt.circle" catalog="system" width="128" height="121"/>
+        <image name="Donghae" width="640" height="960"/>
+        <image name="Eunhynk" width="640" height="960"/>
+        <image name="Heechul" width="640" height="960"/>
+        <image name="Kyuhyun" width="640" height="960"/>
+        <image name="Leeteuk" width="640" height="960"/>
+        <image name="Roeedwook" width="640" height="960"/>
+        <image name="Shindong" width="960" height="640"/>
+        <image name="Siwon" width="640" height="960"/>
+        <image name="Yesung" width="960" height="640"/>
+        <image name="newspaper" catalog="system" width="128" height="108"/>
+        <image name="opticaldiscdrive" catalog="system" width="128" height="88"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="superjunior profile" width="2940" height="2400"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
