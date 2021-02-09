@@ -20,11 +20,11 @@
                                 <rect key="frame" x="44" y="494" width="326" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Asia's No.1 multi-entertainment group active across multiple genres—singers, celebrities, models, etc.
+                                <string key="text">Asia's No.1 multi-entertainment group active across multiple genres—singers, celebrities, models, etc.
 The group celebrated its 10th anniversary in 2015, and has become extremely popular not only for its activities as a group, but also individual activities, including unit activities.
 The solo concert SUPER SHOW has given in excess of 140 performances in 30 major cities around the world, with cumulative audiences of about 2 million people.
 After a hiatus of three years or so since 2017, the world touring SUPER SHOW 7 has been acclaimed not only in Asia but also in Latin America, demonstrating its worldwide popularity.
-Their world tour, SUPER SHOW 8 began from October 2019. Also a mini album will be newly released on January 29 of next year.</mutableString>
+Their world tour, SUPER SHOW 8 began from October 2019. Also a mini album will be newly released on January 29 of next year.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -252,7 +252,7 @@ Their world tour, SUPER SHOW 8 began from October 2019. Also a mini album will b
                                 <rect key="frame" x="39" y="514" width="265" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="oNp-ZW-kVD">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="28" translatesAutoresizingMaskIntoConstraints="NO" id="oNp-ZW-kVD">
                                 <rect key="frame" x="68" y="608" width="269" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
