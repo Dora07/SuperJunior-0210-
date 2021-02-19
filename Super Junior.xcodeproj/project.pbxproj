@@ -19,6 +19,8 @@
 		866A3D6625D1BDDD00E9DB32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A3D6525D1BDDD00E9DB32 /* ProfileViewController.swift */; };
 		866A3D6E25D1C1CE00E9DB32 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A3D6D25D1C1CE00E9DB32 /* MemberViewController.swift */; };
 		866A3D7325D2C8F500E9DB32 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A3D7225D2C8F500E9DB32 /* AlbumViewController.swift */; };
+		866A3DEE25DEBA5000E9DB32 /* StarMusicTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A3DED25DEBA5000E9DB32 /* StarMusicTableTableViewController.swift */; };
+		866A3DF625DFC0EF00E9DB32 /* MamacitaMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A3DF525DFC0EF00E9DB32 /* MamacitaMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		866A3D6525D1BDDD00E9DB32 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		866A3D6D25D1C1CE00E9DB32 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
 		866A3D7225D2C8F500E9DB32 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		866A3DED25DEBA5000E9DB32 /* StarMusicTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarMusicTableTableViewController.swift; sourceTree = "<group>"; };
+		866A3DF525DFC0EF00E9DB32 /* MamacitaMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamacitaMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +117,11 @@
 				86653AF12590A71700E68B7C /* ViewController.swift */,
 				866A3D7225D2C8F500E9DB32 /* AlbumViewController.swift */,
 				86653AF32590A71700E68B7C /* Main.storyboard */,
+				866A3DF525DFC0EF00E9DB32 /* MamacitaMusicViewController.swift */,
 				866A3D6D25D1C1CE00E9DB32 /* MemberViewController.swift */,
 				866A3D6025D1B90500E9DB32 /* TopViewController.swift */,
 				866A3D6525D1BDDD00E9DB32 /* ProfileViewController.swift */,
+				866A3DED25DEBA5000E9DB32 /* StarMusicTableTableViewController.swift */,
 				86653AF82590A71800E68B7C /* LaunchScreen.storyboard */,
 				86653AFB2590A71800E68B7C /* Info.plist */,
 			);
@@ -274,6 +280,8 @@
 				866A3D6125D1B90500E9DB32 /* TopViewController.swift in Sources */,
 				86653AF22590A71700E68B7C /* ViewController.swift in Sources */,
 				866A3D6625D1BDDD00E9DB32 /* ProfileViewController.swift in Sources */,
+				866A3DF625DFC0EF00E9DB32 /* MamacitaMusicViewController.swift in Sources */,
+				866A3DEE25DEBA5000E9DB32 /* StarMusicTableTableViewController.swift in Sources */,
 				86653AEE2590A71700E68B7C /* AppDelegate.swift in Sources */,
 				86653AF02590A71700E68B7C /* SceneDelegate.swift in Sources */,
 				866A3D7325D2C8F500E9DB32 /* AlbumViewController.swift in Sources */,
